@@ -32,4 +32,7 @@ TF-IDF (Term Frequency-Inverse Document Frequency) vectorization is used to conv
 
 ### Cosine Similarity
 - Cosine similarity is used to calculate the similarity between the user's profile and the medicines in the dataset.
+  
+### Top-N Recommendations
+- The system ranks medicines based on their similarity to the user's profile and provides the top N recommendations.
 
