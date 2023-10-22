@@ -17,8 +17,13 @@ The dataset used for this project contains information about various medicines. 
 
 ### Exploratory Data Analysis
 
-- Data analysis is performed to gain insights into the dataset.
-- Histograms and heatmaps are used to visualize the distribution and correlations of numerical features.
+- Various charts and visualizations are created, including:
+  - Distribution of Excellent Review %
+  - Correlation matrix heatmap
+  - Bar chart for the top 5 manufacturers
+  - Bar charts for the top 5 medicines by manufacturer
+  - Pie chart for the distribution of medicines among the top manufacturers
+
 
 ### Data Preprocessing
 - Text data in the `Medicine Name`, `Uses`, and `Side_effects` columns is preprocessed using the following steps:
@@ -40,4 +45,22 @@ TF-IDF (Term Frequency-Inverse Document Frequency) vectorization is used to conv
   
 ### Top-N Recommendations
 - The system ranks medicines based on their similarity to the user's profile and provides the top N recommendations.
+
+- ## Report Generated
+
+- A report is generated with the top 5 medicines recommended for the user's profile.
+- The report includes the following information for each recommended medicine:
+  - Medicine Name
+  - Composition
+  - Excellent Review %
+  - Average Review %
+  - Poor Review %
+  - Cosine Similarity
+
+
+
+
+
+
+
 
