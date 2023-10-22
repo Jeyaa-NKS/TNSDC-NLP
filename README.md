@@ -15,3 +15,10 @@ The dataset used for this project contains information about various medicines. 
 - `Average Review %`: The percentage of average reviews for the medicine.
 - `Poor Review %`: The percentage of poor reviews for the medicine.
 
+### Data Preprocessing
+- Text data in the `Medicine Name`, `Uses`, and `Side_effects` columns is preprocessed using the following steps:
+  - Lowercasing
+  - Tokenization
+  - Removing punctuation and non-alphanumeric characters
+  - Removing stopwords
+
