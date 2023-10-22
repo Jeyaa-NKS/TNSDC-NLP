@@ -46,7 +46,7 @@ TF-IDF (Term Frequency-Inverse Document Frequency) vectorization is used to conv
 ## Top-N Recommendations
 - The system ranks medicines based on their similarity to the user's profile and provides the top N recommendations.
 
- ## Report Generated
+## Report Generated
 
 - A report is generated with the top 5 medicines recommended for the user's profile.
 - The report includes the following information for each recommended medicine:
@@ -56,6 +56,11 @@ TF-IDF (Term Frequency-Inverse Document Frequency) vectorization is used to conv
   - Average Review %
   - Poor Review %
   - Cosine Similarity
+
+## Conclusion
+
+This medicine recommendation system leverages NLP and data analysis techniques to provide users with relevant medicine recommendations based on their medical conditions or preferences. The system is designed to assist users in making informed decisions about medicine choices.
+
 
 
 
