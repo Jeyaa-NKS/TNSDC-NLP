@@ -21,4 +21,11 @@ The dataset used for this project contains information about various medicines. 
   - Tokenization
   - Removing punctuation and non-alphanumeric characters
   - Removing stopwords
+ 
+## Recommendation System
+
+### Feature Extraction
+TF-IDF (Term Frequency-Inverse Document Frequency) vectorization is used to convert the text data into numerical feature vectors.
+
+
 
