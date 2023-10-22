@@ -34,19 +34,19 @@ The dataset used for this project contains information about various medicines. 
  
 ## Recommendation System
 
-### Feature Extraction
+## Feature Extraction
 TF-IDF (Term Frequency-Inverse Document Frequency) vectorization is used to convert the text data into numerical feature vectors.
 
-### User Profile
+## User Profile
 - Users can provide their medical conditions or preferences as input.
 
-### Cosine Similarity
+## Cosine Similarity
 - Cosine similarity is used to calculate the similarity between the user's profile and the medicines in the dataset.
   
-### Top-N Recommendations
+## Top-N Recommendations
 - The system ranks medicines based on their similarity to the user's profile and provides the top N recommendations.
 
-- ## Report Generated
+ ## Report Generated
 
 - A report is generated with the top 5 medicines recommended for the user's profile.
 - The report includes the following information for each recommended medicine:
