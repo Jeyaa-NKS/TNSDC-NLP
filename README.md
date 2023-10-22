@@ -27,5 +27,6 @@ The dataset used for this project contains information about various medicines. 
 ### Feature Extraction
 TF-IDF (Term Frequency-Inverse Document Frequency) vectorization is used to convert the text data into numerical feature vectors.
 
-
+### User Profile
+- Users can provide their medical conditions or preferences as input.
 
